@@ -34,10 +34,6 @@ git add . && git commit -m "update Readme.md"
 ```
 ```bash
 git remote add origin https://github.com/alexfrank10/dvc-demo.git
-```
-```bash
 git branch -M main
-```
-```bash
 git push -u origin main
 ```
