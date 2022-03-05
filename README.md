@@ -1,17 +1,17 @@
 Create environment
-"""bash
+```bash
 2  conda create -n wineq python=3.7 -y
-"""
+```
 Activate env
-"""bash
+```bash
 conda activate wineq
-"""
+```
 
 Create and install requirements.txt file
-"""bash
+```bash
 touch requirements.txt
 pip install -r requirements.txt
-"""
+```
 
 git init
 
@@ -21,3 +21,4 @@ dvc add data_given/winequality.csv
 
 git add .
 git commit -m "first commit"
+
