@@ -62,3 +62,8 @@ build your own package
 ```bash
 python setup.py sdist bdist_wheel
 ```
+
+one command line to commit and push
+```bash
+git add . && git commit -m "setup done" && git push origin main
+```
