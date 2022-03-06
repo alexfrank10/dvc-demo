@@ -60,6 +60,8 @@ def train_and_evaluate(config_path):
     print(" MAE: %s" % mae)
     print(" R2: %s" % r2)
 
+
+#####################################################################
     scores_file = config["reports"]["scores"]
     params_file = config["reports"]["params"]
 
@@ -79,6 +81,8 @@ def train_and_evaluate(config_path):
         }
 
         json.dump(params, f, indent=4)
+
+########################################################################
 
         os.makedirs(model_dir, exist_ok=True)
         model_path = os.path.join(model_dir, "model.joblib")

@@ -37,3 +37,28 @@ git remote add origin https://github.com/alexfrank10/dvc-demo.git
 git branch -M main
 git push -u origin main
 ```
+
+tox command
+```bash
+tox
+```
+
+for rebuilding
+```bash
+tox -r
+```
+
+pytest command
+```bash
+pytest -v
+```
+
+setup command
+```bash
+pip install -e .
+```
+
+build your own package
+```bash
+python setup.py sdist bdist_wheel
+```
